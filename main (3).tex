@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Priya Bhatia} \\ \vspace{1pt}
+    \small 8376599121 $|$ \href{mailto:priya.bhatia6971@gmail.com}{{priya.bhatia@alumni.iith.ac.in}} $|$ 
+    \href{https://www.linkedin.com/in/bhatia-priya/}{{\underline{linkedin.com/in/priya-bhatia}}} $|$
+    \href{https://www.youtube.com/c/PriyaBhatia}{{\underline{PriyaBhatia}}} $|$
+    \href{https://github.com/priya6971}{{\underline{github.com/priya6971}}}
+    
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology}{ Hyderabad, Telangana}
+      {Master of Technology in Artificial Intelligence}{Sep 2020 -- July 2022}
+      \resumeItemListStart
+        \resumeItem{Cumulative GPA : \textbf{9.29/10.0}}
+        \resumeItem{Relevant Coursework: Machine Learning, Deep Learning, Probability, and Applied Statistics, Advance Data Structure and Algorithms, Natural Language Processing, Medical Image Processing}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Jaypee Institute Of Information Technology}{Noida, Uttar Pradesh}
+      {Bachelor Of Technology in Computer Science}{Aug 2015 -- Aug 2019}
+       \resumeItemListStart
+        \resumeItem{Cumulative GPA : \textbf{8.1/10.0}}
+        \resumeItem{Relevant Coursework: Algorithms and Data Structure, Database Management System, Operating System, Computer Network, Linear Algebra, Discrete Mathematics, Fuzzy Logic and Neural Network, Big Data}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+  \resumeSubheading
+      {Data Scientist}{July 2022 - Present}
+      {iNeuron Intelligence}{Bengaluru, Karnataka}
+      \resumeItemListStart
+       \resumeItem{Working on creating an end-to-end project on text generation using GPT2}
+        \resumeItem{Worked on creating an end-to-end data warehouse solution using Hive}
+         \resumeItem{Working in an R\&D team and have delivered professional lectures on Data Science and DSA to a class of over 1000 students.}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Software Engineer}{Feb 2019 - Jan 2020}
+      {Thales}{Noida, Uttar Pradesh}
+      \resumeItemListStart
+        \resumeItem{Researched \textbf{AOTA project}, aimed at managing smart card and all its files remotely through server enabling telecom operators to manage 2G, 3G, and LTE operations}
+        \resumeItem{Developed \textbf{core services} with team in RUM component}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\resumeItemListStart
+            \resumeItem{\textbf{Programming Languages}{: Python, Core Java, C/C++, Basics of Scala}}
+            \resumeItem{\textbf{Data Science and Miscellaneous Technologies}{: Data Science Pipeline(collection, cleansing, visualization, modeling, interpretation), Statistics, Hypothesis Testing, CI/CD Pipeline, AWS}}
+            \resumeItem{\textbf{Big Data, Machine Learning and Deep Learning}{: : Hadoop, MapReduce, Sqoop, Apache Hive, Basics of Spark with Scala, Linux, Regression, Classification, CNN, Capsule Networks for Medical Image Segmentation}}
+\resumeItemListEnd
+
+\section{Scholastic Achievements}
+\begin{itemize}
+    \resumeItem{Selected among the \textbf{top 40 postgraduate students} from premier institutes (IITs, IISC) for \textbf{academic excellence in Reliance Foundation Scholarship in Artificial Intelligence and Computer Science} for the year 2020-21.}
+    \item P Bhatia, A Sinha, S P Joshi, R Sarkar, R Ghosh, S Jana, "Automated Quantification of Inflamed Lung Regions in Chest CT by UNet++ and SegCaps: A Comparative Analysis in COVID-19 Cases", {\it2022 44th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}.
+\end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Automated Quantification of Inflamed Lung Regions in Chest CT by UNet++ and SegCaps}}
+          {{ $|$ \emph{Research Work}}}
+          \resumeItemListStart
+            \resumeItem{Developed an \textbf{automated image segmentation} algorithm to detect the \textbf{infection in the lungs} using the chest CT scans}
+            \resumeItem{\textbf{Quantification} of infected lungs using the chest CT scans}
+            \resumeItem{Project helps the \textbf{doctors to diagnose CT severity score} of the \textbf{covid patients} from Jaipur hospital.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Research paper title generation and tag classification using transformers}}
+          {{ $|$ \emph{Natural Language Processing}}}
+          \resumeItemListStart
+            \resumeItem{Developed \textbf{transformer} based deep learning approach to \textbf{title generation of research papers and paper tags classification}.}
+            \resumeItem{Dependencies : PyTorch Cuda 11.1, Transformers 11.0, NLTK, Seaborn}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%%
+
+\begin{comment}
+    {\emph{Research Work} $|$ {Jan 2021 - July 2022}}
+    {\emph{Natural Language Processing} $|$ {Feb 2021 - May 2021}}
+\end{comment}
+
+%-------------------------------------------
+\end{document}
